@@ -25,9 +25,9 @@ export default function LabTabs() {
             borderColor: "divider",
             height: "64px",
             backgroundColor: "#ffff",
-            display: "flex",
-            alignItems: "end",
-            paddingLeft: "24px",
+            display: 'flex',
+            alignItems: 'end',
+            paddingLeft:'24px'
           }}
         >
           <TabList
@@ -46,11 +46,11 @@ export default function LabTabs() {
                   background:
                     "linear-gradient(180deg ,#4936EF4D 0%, #ffff 100%)",
                   color: "#4936EF",
-                  border: "1px solid",
+                  border: '1px solid',
                   borderBottom: "0px",
-                  borderStartStartRadius: "8px",
-                  borderStartEndRadius: "8px",
-                  borderColor: "#4936EFCC",
+                  borderStartStartRadius:'8px',
+                  borderStartEndRadius: '8px',
+                  borderColor:'#4936EFCC'
                 },
               }}
               label="All"
@@ -63,11 +63,11 @@ export default function LabTabs() {
                   background:
                     "linear-gradient(180deg ,#4936EF4D 0%, #ffff 100%)",
                   color: "#4936EF",
-                  border: "1px solid",
-                  borderColor: "#4936EFCC",
+                  border: '1px solid',
+                  borderColor:'#4936EFCC',
                   borderBottom: "0px",
-                  borderStartEndRadius: "8px",
-                  borderStartStartRadius: "8px",
+                  borderStartEndRadius: '8px',
+                  borderStartStartRadius:'8px'
                 },
               }}
               label="Home & Decor"
@@ -75,16 +75,16 @@ export default function LabTabs() {
             />
             <Tab
               sx={{
-                transition: "background-color 0.3s ease",
+                transition: "background-color 0.3s ease", 
                 "&.Mui-selected": {
                   background:
                     "linear-gradient(180deg ,#4936EF4D 0%, #ffff 100%)",
                   color: "#4936EF",
-                  border: "1px solid",
-                  borderColor: "#4936EFCC",
+                  border: '1px solid',
+                  borderColor:'#4936EFCC',
                   borderBottom: "0px",
-                  borderStartEndRadius: "8px",
-                  borderStartStartRadius: "8px",
+                  borderStartEndRadius: '8px',
+                  borderStartStartRadius:'8px'
                 },
               }}
               label="Travel"
